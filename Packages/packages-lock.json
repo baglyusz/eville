@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "ai.undream.llmunity": {
+      "version": "https://github.com/undreamai/LLMUnity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2606a086f7c65d072b2ad463614fbc2bb0cae35a"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,
