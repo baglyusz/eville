@@ -17,7 +17,7 @@ namespace Assets.Scripts
 
         public void OnInputFieldSubmit()
         {
-            Debug.Log("anyád");
+            Debug.Log(":(");
             //playerText.interactable = false;
             string message = playerText.text;
             AIText.SetText("i have been trying to reach you about your car's extended warranty");

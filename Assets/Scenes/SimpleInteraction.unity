@@ -761,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.0001, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578411403
@@ -1103,9 +1103,8 @@ MonoBehaviour:
   grammarString: 
   playerName: user
   AIName: assistant
-  prompt: A chat between a curious human and an artificial intelligence assistant.
-    The assistant gives helpful, detailed, and polite answers to the human's questions.
-  chatTemplate: phi
+  prompt: A chat between a human user and an ai assistant.
+  chatTemplate: llama chat
   setNKeepToPrompt: 1
   modelHide: 1
   numThreads: -1
@@ -1114,11 +1113,11 @@ MonoBehaviour:
   debug: 0
   asynchronousStartup: 0
   remote: 0
-  model: phi-2.Q4_K_M.gguf
+  model: ggml-model-f32.gguf
   lora: 
   contextSize: 512
   batchSize: 512
-  SelectedModel: 3
+  SelectedModel: 0
   modelProgress: 1
   modelCopyProgress: 1
 --- !u!4 &806407937
